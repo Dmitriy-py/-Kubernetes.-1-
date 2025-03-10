@@ -47,13 +47,11 @@ redis должен запускаться без пароля;
 Запустите Deployment в своём кластере и добейтесь его стабильной работы.
 
 
+![Снимок экрана (552)](https://github.com/user-attachments/assets/dccfcf37-1f16-4f2f-aa20-424d54f9b1fe)
 
+![Снимок экрана (553)](https://github.com/user-attachments/assets/4d46ef45-6eeb-476c-b6bf-611755609dda)
 
-
-
-
-
-
+![Снимок экрана (554)](https://github.com/user-attachments/assets/3afca65e-b09b-48fe-97b4-842bf34c2be5)
 
 
 
