@@ -54,6 +54,8 @@ redis должен запускаться без пароля;
 ![Снимок экрана (554)](https://github.com/user-attachments/assets/3afca65e-b09b-48fe-97b4-842bf34c2be5)
 
 
+
+
 ### Задание 3
 Выполните действия:
 
@@ -65,4 +67,21 @@ redis должен запускаться без пароля;
 
 
 
+![Снимок экрана (555)](https://github.com/user-attachments/assets/28834624-268a-43c4-ae92-2980e20d24b8)
 
+### Задание 4
+Есть конфигурация nginx:
+
+```
+location / {
+    add_header Content-Type text/plain;
+    return 200 'Hello from k8s';
+}
+```
+Выполните действия:
+
+Напишите yaml-файлы для развёртки nginx, в которых будут присутствовать:
+
+ConfigMap с конфигом nginx;
+Deployment, который бы подключал этот configmap;
+Ingress, который будет направлять запросы по префиксу /test на наш сервис.
