@@ -12,7 +12,7 @@
 ### Задание 2
 Есть файл с деплоем:
 
-apiVersion: apps/v1
+---apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: redis
@@ -33,7 +33,7 @@ spec:
          - name: REDIS_PASSWORD
            value: password123
         ports:
-        - containerPort: 6379
+        - containerPort: 6379---
 
 Выполните действия:
 
