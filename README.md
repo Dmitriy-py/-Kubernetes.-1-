@@ -85,3 +85,7 @@ location / {
 ConfigMap с конфигом nginx;
 Deployment, который бы подключал этот configmap;
 Ingress, который будет направлять запросы по префиксу /test на наш сервис.
+
+![Снимок экрана (557)](https://github.com/user-attachments/assets/63457af9-c8c6-4f95-b7f1-eaf4988da598)
+
+
