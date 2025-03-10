@@ -35,14 +35,6 @@ spec:
            value: password123
         ports:
         - containerPort: 6379
-
-
-
-
-
-
-
-
 ```
 
 
